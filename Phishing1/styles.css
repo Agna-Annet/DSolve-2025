@@ -1,0 +1,83 @@
+:root {
+  --safe-color: #4CAF50;
+  --warning-color: #FFC107;
+  --danger-color: #F44336;
+  --text-color: #333;
+  --background-color: #fff;
+}
+
+body {
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+.container {
+  padding: 16px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #2196F3;
+}
+
+.risk-meter {
+  margin-bottom: 24px;
+}
+
+.risk-level {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  width: 0;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.issues-container {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.issues-container h2 {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+}
+
+#issues-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#issues-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+#issues-list li:last-child {
+  border-bottom: none;
+}
