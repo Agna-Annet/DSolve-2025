@@ -1,21 +1,21 @@
 # 🚀 DSolve-2025 Hackathon
 
 ## 👥 Team Information
-**Team Name:** [Your Creative Team Name]  
+**Team Name:** TrustSurf
 
 **Team Members:**
-- Member 1 Name
-- [Member 1's Github ](https://github.com/username) - Role/Contribution
-- Member 2 Name
-- [Member 2's Github](https://github.com/username) - Role/Contribution
+- Agna Annet Varghese
+- (https://github.com/Agna-Annet) - Developed code, Debugging, Final submission
+- Shirin Shukkoor
+- (https://github.com/ShirinS2006) - Developed code, Idea refinement, Final submission
 
 ## 💡 Project Idea
-[A clear, concise 2-3 sentence description of your project's purpose and value proposition]
+A browser extension that detects phishing risk on a percentage scale, real time. Displays the factors that lead to determned risk factor.
 
 ## ✨ Key Features
-- 🔍 Feature 1: [Brief description]
-- ⚡ Feature 2: [Brief description] 
-- 🛡️ Feature 3: [Brief description]
+- 🔍 Feature 1: Risk factor on a percentage scale. Colour change according to risk.
+- ⚡ Feature 2: Checks for criteria like URL discrepency, heavy grammar errors, suspicious language, SSL certicate etc.
+- 🛡️ Feature 3: Displays the reasons that lead to the determination of the risk factor.
 
 ## 🎥 Product Demo
 [![Watch the Demo](https://via.placeholder.com/300x200?text=Click+for+Demo+Video)](https://youtube.com/link-to-video)
@@ -24,7 +24,7 @@
 ## 🛠️ Tech Stack
 | Technology | Version | Purpose |
 |------------|---------|---------|
-| Tech 1     | vX.X.X  |         |
+|            | vX.X.X  |         |
 | Tech 1     | vX.X.X  |         |
 | Tech 1     | vX.X.X  |         |
 
